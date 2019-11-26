@@ -13,6 +13,10 @@ async function handleRequest(request) {
   const width = size ? size : (params.get('width') || params.get('w'))
   const scale = params.get('scale') === '' || !!params.get('scale')
 
+  if (!height || !width) {
+    return Response.redirect('https://github.com/adamschwartz/get.svg.workers.dev', 301)
+  }
+
   let svg = '<svg xmlns="http://www.w3.org/2000/svg"'
 
   if (!scale) {
