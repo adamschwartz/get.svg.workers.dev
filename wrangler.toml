@@ -1,0 +1,4 @@
+name = "get"
+account_id = "a910255c70c725214d9c88c186646042" # svg.workers.dev
+type = "webpack"
+workers_dev = true

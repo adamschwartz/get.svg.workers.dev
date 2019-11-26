@@ -1,0 +1,9 @@
+{
+  "private": true,
+  "name": "svg-worker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "Adam Schwartz <adam.flynn.schwartz@gmail.com>",
+  "license": "MIT"
+}
