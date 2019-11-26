@@ -11,20 +11,27 @@ async function handleRequest(request) {
   const fill = params.get('fill') || params.get('f') || (stroke ? 'transparent' : '')
   const height = size ? size : (params.get('height') || params.get('h'))
   const width = size ? size : (params.get('width') || params.get('w'))
+  const scale = params.get('scale') === '' || !!params.get('scale')
 
-  const svg = `<svg
-  xmlns="http://www.w3.org/2000/svg"
-  xmlns:xlink="http://www.w3.org/1999/xlink"
-  width="${ width }"
-  height="${ height }"
-  viewBox="0 0 ${ width } ${ height }">
-  ${ (!fill && !stroke) ? '' :
-    '<rect width="' + width + '" height="' + height + '"' +
-      (!fill ? '' : ' fill="' + fill + '"') +
-      (!stroke ? '' : ' stroke="' + stroke + '"') +
-    '></rect>'
+  let svg = '<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"'
+
+  if (!scale) {
+    svg += ` width="${ width }"`
+    svg += ` height="${ height }"`
   }
-</svg>`
+
+  svg += ` viewBox="0 0 ${ width } ${ height }"`
+  svg += '>'
+
+  if (fill || stroke) {
+    svg += `<rect width="${ width }" height="${height}"`
+
+    if (fill) svg += ` fill="${ fill }"`
+    if (stroke) svg += ` stroke="${ stroke }"`
+    svg += '/>'
+  }
+
+  svg += '</svg>'
 
   if (url.pathname === '/' || url.pathname === '') {
     return new Response(svg, {
