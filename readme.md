@@ -90,3 +90,9 @@
 ```
 <img width="100" height="100" src="https://g.svg.workers.dev/?s=100&d=M10,30A20,20+0,0,1+50,30A20,20+0,0,1+90,30Q90,60+50,90Q10,60+10,30z&f=red"/>
 ```
+
+<img width="100" height="100" src="https://g.svg.workers.dev/?s=5&d=M2,2v-1h1v1h1v1h-1v1h-1v-1h-1v-1z&f=0&scale"/>
+
+```
+<img width="100" height="100" src="https://g.svg.workers.dev/?s=5&d=M2,2v-1h1v1h1v1h-1v1h-1v-1h-1v-1z&f=0&scale"/>
+```
