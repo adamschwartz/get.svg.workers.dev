@@ -85,8 +85,8 @@
 
 ## Path `d` attr
 
-<img width="100" height="100" src="https://get.svg.workers.dev/?s=100&d=M+10,30+A+20,20+0,0,1+50,30+A+20,20+0,0,1+90,30+Q+90,60+50,90+Q+10,60+10,30+z&f=red"/>
+<img width="100" height="100" src="https://g.svg.workers.dev/?s=100&d=M10,30A20,20+0,0,1+50,30A20,20+0,0,1+90,30Q90,60+50,90Q10,60+10,30z&f=red"/>
 
 ```
-<img width="100" height="100" src="https://get.svg.workers.dev/?s=100&d=M+10,30+A+20,20+0,0,1+50,30+A+20,20+0,0,1+90,30+Q+90,60+50,90+Q+10,60+10,30+z&f=red"/>
+<img width="100" height="100" src="https://g.svg.workers.dev/?s=100&d=M10,30A20,20+0,0,1+50,30A20,20+0,0,1+90,30Q90,60+50,90Q10,60+10,30z&f=red"/>
 ```
