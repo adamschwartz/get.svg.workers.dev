@@ -1,5 +1,21 @@
 # SVG
 
+## Basic
+
+<img src="https://g.svg.workers.dev/?size=100&fill=black">
+
+```
+<img src="https://g.svg.workers.dev/?size=100&fill=black">
+```
+
+<img src="https://g.svg.workers.dev/?w=200&h=50&f=rgb(0,50,100)">
+
+```
+<img src="https://g.svg.workers.dev/?w=200&h=50&f=rgb(0,50,100)">
+```
+
+![](https://g.svg.workers.dev/?w=10&h=1&scale)
+
 ## Scale
 
 <img src="https://g.svg.workers.dev/?w=10&h=1&f=rgba(0,20,60,.083)&scale">
@@ -16,7 +32,7 @@
 
 ![](https://g.svg.workers.dev/?w=10&h=1&scale)
 
-## Stroked
+## Stroke
 
 <img width="80" height="80" src="https://g.svg.workers.dev/?w=40&h=40&f=rgba(0,20,60,.083)&stroke=rgba(0,20,60,.2)"><img width="20" height="80" src="https://g.svg.workers.dev/?h=8&w=2"><img width="80" height="80" src="https://g.svg.workers.dev/?w=40&h=40&f=rgba(0,20,60,.083)&stroke=rgba(0,20,60,.6)"><img width="20" height="80" src="https://g.svg.workers.dev/?h=8&w=2"><img width="80" height="80" src="https://g.svg.workers.dev/?w=8&h=8&f=rgba(0,20,60,.083)&stroke=rgba(0,20,60,.2)">
 
