@@ -29,10 +29,10 @@ async function handleRequest(request) {
   svg += '>'
 
   if (fill || stroke) {
-    if (!d) {
-      svg += `<rect width="${ width }" height="${height}"`
+    if (d) {
+      svg += `<path d="${ d.split('\"')[0] }"`
     } else {
-      svg += `<path d="${ d }"`
+      svg += `<rect width="${ width }" height="${height}"`
     }
 
     if (fill) svg += ` fill="${ fill }"`
