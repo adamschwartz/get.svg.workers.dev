@@ -14,6 +14,7 @@
 <img src="https://g.svg.workers.dev/?w=16&h=9&f=black&scale">
 ```
 
+![](https://g.svg.workers.dev/?w=10&h=1&scale)
 
 ## Stroked
 
@@ -25,6 +26,7 @@
 <img width="80" height="80" src="https://g.svg.workers.dev/?w=8&h=8&f=rgba(0,20,60,.083)&stroke=rgba(0,20,60,.2)">
 ```
 
+![](https://g.svg.workers.dev/?w=10&h=1&scale)
 
 ## Layout
 
@@ -38,6 +40,7 @@
 <img width="80" height="240" src="https://g.svg.workers.dev/?h=24&w=8&f=rgba(0,20,60,.083)&stroke=rgba(0,20,60,.5)"><img width="20" height="240" src="https://g.svg.workers.dev/?h=24&w=2"><img width="400" height="240" src="https://g.svg.workers.dev/?h=24&w=40&f=rgba(0,20,60,.04)&stroke=rgba(0,20,60,.5)"><img width="20" height="80" src="https://g.svg.workers.dev/?h=8&w=2"><img width="80" height="240" src="https://g.svg.workers.dev/?h=24&w=8&f=rgba(0,20,60,.083)&stroke=rgba(0,20,60,.5)">
 ```
 
+![](https://g.svg.workers.dev/?w=10&h=1&scale)
 
 ## Horizontal rule
 
@@ -59,6 +62,7 @@
 <img height="10" src="https://g.svg.workers.dev/?h=10&w=1000&fill=black&scale">
 ```
 
+![](https://g.svg.workers.dev/?w=10&h=1&scale)
 
 ## Miscellanous
 
@@ -82,6 +86,7 @@
 <img width="4" height="4" src="https://g.svg.workers.dev/?s=8&fill=%236876e2"><img width="18" height="4" src="https://g.svg.workers.dev/?s=8"><img width="40" height="4" src="https://g.svg.workers.dev/?s=8&fill=%233998d1"><img width="40" height="4" src="https://g.svg.workers.dev/?s=8&fill=%232fb380"><img width="40" height="4" src="https://g.svg.workers.dev/?s=8&fill=%23e29f50"><img width="40" height="4" src="https://g.svg.workers.dev/?s=8&fill=%23e05a54"><img width="40" height="4" src="https://g.svg.workers.dev/?s=8&fill=%23b66dc2"><img width="40" height="4" src="https://g.svg.workers.dev/?s=8&fill=%238f71d3"><img width="40" height="4" src="https://g.svg.workers.dev/?s=8&fill=%236876e2"><img width="40" height="4" src="https://g.svg.workers.dev/?s=8&fill=%233998d1"><img width="40" height="4" src="https://g.svg.workers.dev/?s=8&fill=%232fb380"><img width="40" height="4" src="https://g.svg.workers.dev/?s=8&fill=%23e29f50"><img width="40" height="4" src="https://g.svg.workers.dev/?s=8&fill=%23e05a54"><img width="40" height="4" src="https://g.svg.workers.dev/?s=8&fill=%23b66dc2"><img width="40" height="4" src="https://g.svg.workers.dev/?s=8&fill=%238f71d3">
 ```
 
+![](https://g.svg.workers.dev/?w=10&h=1&scale)
 
 ## Path `d` attr
 
