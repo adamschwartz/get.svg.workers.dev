@@ -81,3 +81,12 @@
 ```
 <img width="4" height="4" src="https://get.svg.workers.dev/?s=8&fill=%236876e2"><img width="18" height="4" src="https://get.svg.workers.dev/?s=8"><img width="40" height="4" src="https://get.svg.workers.dev/?s=8&fill=%233998d1"><img width="40" height="4" src="https://get.svg.workers.dev/?s=8&fill=%232fb380"><img width="40" height="4" src="https://get.svg.workers.dev/?s=8&fill=%23e29f50"><img width="40" height="4" src="https://get.svg.workers.dev/?s=8&fill=%23e05a54"><img width="40" height="4" src="https://get.svg.workers.dev/?s=8&fill=%23b66dc2"><img width="40" height="4" src="https://get.svg.workers.dev/?s=8&fill=%238f71d3"><img width="40" height="4" src="https://get.svg.workers.dev/?s=8&fill=%236876e2"><img width="40" height="4" src="https://get.svg.workers.dev/?s=8&fill=%233998d1"><img width="40" height="4" src="https://get.svg.workers.dev/?s=8&fill=%232fb380"><img width="40" height="4" src="https://get.svg.workers.dev/?s=8&fill=%23e29f50"><img width="40" height="4" src="https://get.svg.workers.dev/?s=8&fill=%23e05a54"><img width="40" height="4" src="https://get.svg.workers.dev/?s=8&fill=%23b66dc2"><img width="40" height="4" src="https://get.svg.workers.dev/?s=8&fill=%238f71d3">
 ```
+
+
+## Path `d` attr
+
+<img width="100" height="100" src="https://get.svg.workers.dev/?s=100&d=M+10,30+A+20,20+0,0,1+50,30+A+20,20+0,0,1+90,30+Q+90,60+50,90+Q+10,60+10,30+z&f=red"/>
+
+```
+<img width="100" height="100" src="https://get.svg.workers.dev/?s=100&d=M+10,30+A+20,20+0,0,1+50,30+A+20,20+0,0,1+90,30+Q+90,60+50,90+Q+10,60+10,30+z&f=red"/>
+```
