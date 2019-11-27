@@ -7,10 +7,10 @@ async function handleRequest(request) {
   const params = new URL(request.url).searchParams
 
   const size = params.get('size') || params.get('s')
-  const stroke = params.get('stroke')
-  const fill = params.get('fill') || params.get('f') || (stroke ? 'transparent' : '')
   const height = size ? size : (params.get('height') || params.get('h'))
   const width = size ? size : (params.get('width') || params.get('w'))
+  const stroke = params.get('stroke')
+  const fill = params.get('fill') || params.get('f') || (stroke ? 'transparent' : '')
   const scale = params.get('scale') === '' || !!params.get('scale')
 
   if (!height || !width) {
