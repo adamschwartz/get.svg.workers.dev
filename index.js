@@ -11,6 +11,7 @@ async function handleRequest(request) {
   const width = size ? size : (params.get('width') || params.get('w'))
   const stroke = params.get('stroke')
   const fill = params.get('fill') || params.get('f') || (stroke ? 'transparent' : '')
+  const d = params.get('d') || params.get('d')
   const scale = params.get('scale') === '' || !!params.get('scale')
 
   if (!height || !width) {
@@ -28,7 +29,11 @@ async function handleRequest(request) {
   svg += '>'
 
   if (fill || stroke) {
-    svg += `<rect width="${ width }" height="${height}"`
+    if (!d) {
+      svg += `<rect width="${ width }" height="${height}"`
+    } else {
+      svg += `<path d="${ d }"`
+    }
 
     if (fill) svg += ` fill="${ fill }"`
     if (stroke) svg += ` stroke="${ stroke }"`
